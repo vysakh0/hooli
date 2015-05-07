@@ -23,7 +23,7 @@ export default Ember.Controller.extend({
   }.property('queryResults', 'nsfw'),
 
   actions: {
-    selectRes: function(result) {
+    submitSearch: function(result) {
       this.transitionTo('results', { queryParams: { term: result } });
     }
   }

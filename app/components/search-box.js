@@ -25,7 +25,7 @@ export default Ember.TextField.extend({
     var aI      = this.get('activeIndex'),
       newIndex  = aI + offset,
       results     = this.get('results');
-    if(offset !== 0) {
+    if(offset) {
 
       if (newIndex >= 0 && (newIndex < results.length)) {
         var result = results[newIndex];
