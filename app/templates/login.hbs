@@ -1,0 +1,23 @@
+<div class="row">
+    <form class="col offset-l4 l4 offset-m3 m6 s12 ">
+{{#md-card-panel class="blue-grey lighten-5" bodyClass="black-text"}}
+        <h4 class="center-align">Login </h4>
+        <div class="row">
+            <div class="input-field col s12">
+                {{md-input value=name label="Name" }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                {{md-input value=email label="Email" }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                {{md-input value=password label="Password" type="password"}}
+            </div>
+        </div>
+        {{md-btn-submit icon='mdi-content-send' iconPosition='right' text="I'm back"}}
+{{/md-card-panel}}
+    </form>
+</div>

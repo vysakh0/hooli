@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+.searchbox{
+    margin-top: 60px;
+}
+.nsfw  label.materialize-selectable-item-label{
+        color: white ;
+}
+.home-card  .card-image img{
+    height: 200px;
+}
+ul.autolist li:hover{
+    background-color: teal;
+    cursor: default;
+}
+ul.autolist li{
+    padding-left: 15px;
+}
+img.img-list{
+    max-height: 80px;
+}
