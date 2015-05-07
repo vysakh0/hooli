@@ -1,6 +1,7 @@
 # Hooli
 This app uses ember component to make autocompletion widget without the need for jquery ui autocompletion or other.
-![Demo app](http://vysakh0.github.io/hooli)
+
+[Demo app](http://vysakh0.github.io/hooli)
 
 ## Installation
 

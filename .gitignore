@@ -16,3 +16,4 @@
 npm-debug.log
 testem.log
 Session.vim
+.projections.json
