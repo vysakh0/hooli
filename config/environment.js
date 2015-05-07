@@ -5,7 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'eapp',
     environment: environment,
     baseURL: '/',
-    locationType: 'auto',
+    locationType: 'hash',
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
@@ -43,7 +43,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.baseURL = 'http://vysakh0.github.io/hooli/';
+    ENV.baseURL = '/hooli';
 
   }
 
