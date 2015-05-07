@@ -19,3 +19,13 @@ test('it renders', function(assert) {
   this.render();
   assert.equal(component._state, 'inDOM');
 });
+test('#didInsertElement ', function(assert) {
+
+  assert.expect(2);
+  var component = this.subject();
+  component.set('term', 'hi');
+  this.render();
+
+  assert.equal(component.get('activeIndex'), -1);
+  assert.equal(component.get('value'), 'hi');
+});
